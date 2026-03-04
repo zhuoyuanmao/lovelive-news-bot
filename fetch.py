@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 
-URL = "https://www.lovelive-anime.jp/yuigaoka/topics/?utm_source=chatgpt.com"
+URL = "https://www.lovelive-anime.jp/news/?series=all&page=1"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
