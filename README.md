@@ -1,1 +1,1 @@
-# lovelive-news-bot
+# 2.5次元音企日报推送
