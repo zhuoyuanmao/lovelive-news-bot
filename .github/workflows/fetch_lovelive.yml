@@ -1,11 +1,10 @@
-name: Fetch Lovelive Tweets
+name: Fetch Lovelive News (Debug)
 
 on:
   schedule:
-    # 每天 21:00 JST（日本标准时间），JST = UTC+9
-    - cron: '0 12 * * *' 
-      # 注意：GitHub Actions 使用 UTC 时间，所以 21:00 JST = 12:00 UTC
-  workflow_dispatch:  # 手动触发，也方便调试
+    # 临时调试时间：23:15 JST = 14:15 UTC
+    - cron: '15 14 * * *'
+  workflow_dispatch:  # 也可以手动触发
 
 jobs:
   fetch:
