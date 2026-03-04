@@ -33,7 +33,7 @@ news_list = list(unique.values())[:5]
 data = {
     "updated": datetime.now().isoformat(),
     "news": news_list,
-    "res": res
+    "res": str(soup)
 }
 
 with open("news.json", "w", encoding="utf-8") as f:
